@@ -14,6 +14,16 @@ const menuOptions = [
     { name: 'X-Vegan', price: 45, vegan: true, src: './img/monstruoso-vegan.png' },
   ]
 
+
+function mapAll(){
+    
+const newPrice = menuOptions.map(value => value.price * 0.9)
+
+console.log(newPrice)
+
+}
+
+/*
 function showAll (items) {
 
     let newLi = ''
@@ -32,3 +42,4 @@ function showAll (items) {
 }
 
 showAllButton.addEventListener('click', () => showAll(menuOptions))
+*/
