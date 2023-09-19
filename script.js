@@ -64,9 +64,9 @@ function filterJustVegan(){
 }
 
 showAllButton.addEventListener('click', () => showAll(menuOptions))
-mapButton.addEventListener('click', mapAll)
-sumAll.addEventListener('click', sumAllItems)
-filter.addEventListener('click', filterJustVegan)
+mapAllButton.addEventListener('click', mapAll)
+sumAllButton.addEventListener('click', sumAllItems)
+filterButton.addEventListener('click', filterJustVegan)
 
 /*
 function mapAll(){
