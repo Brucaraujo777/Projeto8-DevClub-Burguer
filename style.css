@@ -22,14 +22,11 @@ body {
 button {
   border: none;
   border-radius: 5px;
-  font-size: 15px;
   padding: 10px;
-  margin: 5px;
   background-color: #79cb15;
   color: black;
   font-weight: bold;
-  padding: 10px;
-  width: 115px;
+  width: 110px;
   cursor: pointer;
 }
 button:hover {
@@ -45,14 +42,36 @@ img {
   border-radius: 10px;
 }
 
+p{
+  font-size: 16px;
+}
+
+.price {
+  color: #53be21;
+  font-weight: bold;
+}
+
+
 ul {
+  list-style: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   display: grid;
   grid-template-columns: 200px 200px 200px;
-  list-style: none;
+
 }
 
+li {
+  padding: 5px;
+  border: 2px solid #8133ff;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 20px;
+  width: 150px;
+}
+
+/*
 .burguer-price {
   color: #53be21;
   font-weight: bold;
@@ -72,3 +91,4 @@ ul {
   border-radius: 10px;
   width: fit-content;
 }
+*/
