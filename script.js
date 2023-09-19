@@ -1,7 +1,7 @@
 
 const showAllButton = document.querySelector('.show-all')
 const mapAllButton = document.querySelector('.map-all')
-const sumAllButton = document.querySelector('sum-all')
+const sumAllButton = document.querySelector('.sum-all')
 const filterButton = document.querySelector('.filter-vegan')
 const list = document.querySelector('.list')
 
